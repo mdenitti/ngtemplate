@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngtemplate';
+  items = [
+    {title: 'Devices',
+    detail:'This is the details of the devices'},
+    {title: 'Users',
+    detail:'This is the details of the users'}
+  ];
 }
